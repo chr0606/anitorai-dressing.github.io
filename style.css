@@ -7,3 +7,8 @@ h1 {
   color: #FFFFFF;
   font-size: 60px;
 }
+.dress {
+  height: 300px;
+  background-image: url("");
+  background-size: cover;
+}
