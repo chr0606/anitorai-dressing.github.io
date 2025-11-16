@@ -8,9 +8,5 @@ h1 {
   font-size: 60px;
 }
 .dress {
-  width: 100%;
-  height: 300px;
-  background-image: url("https://github.com/chr0606/anitorai-dressing.github.io/raw/refs/heads/main/AnitoRai%20dressing.procreate");
-  background-size: cover;
-  background-position: center;
+  background-color: red;
 }
