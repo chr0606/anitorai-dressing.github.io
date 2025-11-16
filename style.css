@@ -1,12 +1,9 @@
 body {
-  font-famiy: Arial, sans-serif ,Noto Sans Japaneze;
-  background-color: #f0f0f0;
+  font-famiy: Arial, BIZ UD Gothic, Noto Sans Japaneze, Atkinson Hyperlegible;
+  background-color: #76BFCC;
   text-align: center;
 }
 h1 {
   color: 33333ff;
   font-size: 36px;
 }
-p {
-  color: #666666;
-  font-size: 18px;
