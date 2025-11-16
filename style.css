@@ -8,5 +8,9 @@ h1 {
   font-size: 60px;
 }
 .dress {
-  background-color: red;
+  width: 100%;
+  height: 300px;
+  background-image: url("IMG_0212.jpeg");
+  background-size: cover;
+  background-position: center;
 }
