@@ -13,6 +13,7 @@ body {
 .logo {
   fontsize: 20px;
   font-weight: bold;
+  font-color: #FFFFFF;
 }
 .hamburger {
   font-size: 30px;
@@ -23,7 +24,7 @@ body {
 .nav-menu a {
   padding: 10px 0;
   text-secoration: none;
-  color: #444444;
+  color: #FFFFFF;
 }
 .dress {
   width: 300px;
