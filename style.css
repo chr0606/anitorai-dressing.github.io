@@ -1,12 +1,16 @@
 body {
-  font-famiy: Arial, BIZ UD Gothic, Noto Sans Japaneze, Atkinson Hyperlegible;
-  background-color: #FFFFFF;
-  text-align: center;
+  margin: 0;
 }
-h1 {
-  color: #FFFFFF;
-  font-size: 60px;
+.header {
+  display: flex;
+  justify-content: space-bitween;
+  align-items: center;
+  padding: 15px;
   background-color: #76BFCC;
+}
+.logo {
+  margin: 0;
+  fontsize: 24px;
 }
 .dress {
   width: 300px;
