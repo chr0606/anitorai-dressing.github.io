@@ -1,16 +1,29 @@
 body {
   margin: 0;
+  font-family: sans-selif;
 }
 .header {
   display: flex;
-  justify-content: space-bitween;
+  justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 15px 20px;
   background-color: #76BFCC;
+  position: relative;
 }
 .logo {
-  margin: 0;
-  fontsize: 24px;
+  fontsize: 20px;
+  font-weight: bold;
+}
+.hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+.nav-menu a {
+  padding: 10px 0;
+  text-secoration: none;
+  color: #444444;
 }
 .dress {
   width: 300px;
