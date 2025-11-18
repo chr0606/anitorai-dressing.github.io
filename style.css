@@ -4,46 +4,39 @@ body {
   font-family: sans-serif;
 }
 
-/*header-sp class*/
+/*sp header*/
 .header-sp {
   display: flex;
-  
-
-.header {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 15px 20px;
+  justify-content: space-between;
   background-color: #76BFCC;
 }
-
-.header-pc {
-  display: none;
+.sp-space-left {
+  width: 40px;
+}
+.sp-logo {
+  text-align: center;
+  flex-grow: 1;
+}
+.sp-space-right {
+  width: 40px;
+  text-align: center;
 }
 .hamburger {
-  font-size: 30px;
-  font-color: #FFFFFF;
-  background: none;
+  font-color: wighte;
 }
-/*ver.pc 切り替え*/
-@media screen and (min-width: 786px) {
-  .header-sp{
-    display: none;
-  }
-  .header-pc {
-    display: flex;
-    padding: 20px 40px;
-    justify-content: flex-start;
-  }
-  .nav ul {
-    display: flex;
-    list-style: none;
-    gap: 24px;
-    margin: 0;
-    paddinig: 0;
-  }
-  .site-title {
-    margin-left: 40px;
-    font-size: 20px;
-  }
+
+/*pc header*/
+.header {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  align-items: center;
+  background-color: #76BFCC;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 24px;
 }
