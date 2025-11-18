@@ -1,6 +1,7 @@
+/*モバイルファースト*/
 body {
   margin: 0;
-  font-family: sans-selif;
+  font-family: system-ui, -apple-system, "Segoe UI", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
 }
 .header {
   display: flex;
@@ -8,30 +9,35 @@ body {
   align-items: center;
   padding: 15px 20px;
   background-color: #76BFCC;
-  position: relative;
 }
-.logo {
-  fontsize: 20px;
-  font-weight: bold;
-  font-color: #FFFFFF;
+
+.header-pc {
+  display: none;
 }
 .hamburger {
   font-size: 30px;
   font-color: #FFFFFF;
-  cursor: pointer;
-  position: absolute;
-  right: 20px;
+  background: none;
 }
-.nav-menu a {
-  padding: 10px 0;
-  text-secoration: none;
-  color: #333333;
-}
-.dress {
-  width: 300px;
-  height: 300px;
-  background-image: url("無題983_20251117012413.png");
-  background-size: cover;
-  background-position: center;
-  background-color: #76BFCC;
+/*ver.pc 切り替え*/
+@media screen and (min-width: 786px) {
+  .header-sp{
+    display: none;
+  }
+  .header-pc {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: flex-start;
+  }
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    paddinig: 0;
+  }
+  .site-title {
+    margin-left: 40px;
+    font-size: 20px;
+  }
 }
