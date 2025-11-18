@@ -20,7 +20,7 @@ body {
 }
 
 .sp-space-left,
-.sp-spacw-right {
+.sp-space-right {
   width: 40px;
 }
 
@@ -29,6 +29,39 @@ body {
   background: none;
   border: none;
   font-size: 24px;
+}
+
+/*sp用 nav*/
+.nav-sp {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #52747A;
+  padding-top: 60px;
+  transition: right 0.3s ease;
+}
+
+.nav-sp ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-sp li {
+  padding: 16px;
+}
+
+.nav-sp a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.nav-sp.open {
+  right: 0;
 }
 
 /* pc header */
@@ -56,10 +89,6 @@ body {
   font-weight: bold;
 }
 
-/*モバイルファースト　表示について*/
-.header-pc {
-  display: none;
-}
 /*sp ハンバーガーによるナビの非表示*/
 .nav-sp {
   display: none;
