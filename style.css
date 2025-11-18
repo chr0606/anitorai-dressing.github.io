@@ -1,48 +1,67 @@
-/*モバイルファースト*/
+/* モバイルファースト */
 body {
   margin: 0;
-  font-family: Aria;
+  font-family: Arial;
 }
 
-/*sp header*/
+/* sp header */
 .header-sp {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #76BFCC;
-  
-  .sp-space-left {
-    width: 40px;
-  }
-  .sp-logo {
-    text-align: center;
-    flex-grow: 1;
-    font-color: wighte;
-  }
-  .sp-space-right {
-    width: 40px;
-    text-align: center;
-    
-    .hamburger {
-      font-color: wighte;
-      background: none;
-    }
-  }
 }
 
-/*pc header*/
+.sp-space-left {
+  width: 40px;
+}
+
+.sp-logo {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+}
+
+.sp-space-right {
+  width: 40px;
+  text-align: center;
+}
+
+.hamburger {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 24px;
+}
+
+/* pc header */
 .header-pc {
-  display: flex;
+  display: none; /* PC用は後で media query で表示 */
   flex-direction: column;
-  display: none;
   align-items: center;
   background-color: #76BFCC;
-  font-color: wight;
-  
-  .nav {
-  display: flex;
-  flex-direction: column;
+  color: white;
+}
+
+/* nav */
+.nav ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
   gap: 24px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .header-sp {
+    display: none;
+  }
+  .header-pc {
+    display: flex;
   }
 }
