@@ -17,6 +17,7 @@ body {
 .sp-logo {
   text-align: center;
   flex-grow: 1;
+  font-color: wighte;
 }
 .sp-space-right {
   width: 40px;
@@ -27,12 +28,13 @@ body {
 }
 
 /*pc header*/
-.header {
+.header-pc {
   display: flex;
   flex-direction: column;
   display: none;
   align-items: center;
   background-color: #76BFCC;
+  font-color: wight;
 }
 .nav {
   display: flex;
