@@ -1,9 +1,6 @@
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('navMenu');
-hamburger.addEventListener('click', () => {
-  if(navMenu.style.display === 'block') {
-     navMenu.style.display = 'none';
-  } else {
-    navMenu.style.display = 'block';
-  }
+const button = document.querySelector('.hamburger');
+const nav = document.querySelector('.nav-sp');
+
+button.addEventListener('click', () => {
+  nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
 });
