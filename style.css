@@ -1,8 +1,14 @@
 /*モバイルファースト*/
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+  font-family: sans-serif;
 }
+
+/*header-sp class*/
+.header-sp {
+  display: flex;
+  
+
 .header {
   display: flex;
   justify-content: center;
