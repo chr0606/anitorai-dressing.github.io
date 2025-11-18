@@ -89,15 +89,15 @@ body {
   font-weight: bold;
 }
 
-/*sp ハンバーガーによるナビの非表示*/
-.nav-sp {
-  display: none;
-}
-
 @media (min-width: 768px) {
   .header-sp {
     display: none;
   }
+
+  .nav-sp {
+    display: none;
+  }
+  
   .header-pc {
     display: flex;
   }
