@@ -10,22 +10,24 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #76BFCC;
-}
-.sp-space-left {
-  width: 40px;
-}
-.sp-logo {
-  text-align: center;
-  flex-grow: 1;
-  font-color: wighte;
-}
-.sp-space-right {
-  width: 40px;
-  text-align: center;
-}
-.hamburger {
-  font-color: wighte;
-  background: none;
+  
+  .sp-space-left {
+    width: 40px;
+  }
+  .sp-logo {
+    text-align: center;
+    flex-grow: 1;
+    font-color: wighte;
+  }
+  .sp-space-right {
+    width: 40px;
+    text-align: center;
+    
+    .hamburger {
+      font-color: wighte;
+      background: none;
+    }
+  }
 }
 
 /*pc header*/
@@ -36,10 +38,11 @@ body {
   align-items: center;
   background-color: #76BFCC;
   font-color: wight;
-}
-.nav {
+  
+  .nav {
   display: flex;
   flex-direction: column;
   list-style: none;
   gap: 24px;
+  }
 }
