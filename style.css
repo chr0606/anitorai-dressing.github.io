@@ -14,7 +14,8 @@ body {
   padding: 8px 0;
 }
 
-.sp-logo {
+.sp-logo-L,
+.sp-logo-R {
   flex-grow: 1;
   text-align: center;
   color: white;
