@@ -32,6 +32,7 @@ body {
   background: none;
   border: none;
   font-size: 24px;
+  z-index: 1100;
 }
 
 /*sp用 nav*/
@@ -44,6 +45,7 @@ body {
   background-color: #52747A;
   padding-top: 60px;
   transition: right 0.3s ease;
+  z-index: 1000;
 }
 
 .nav-sp ul {
