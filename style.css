@@ -18,7 +18,7 @@ body {
   flex-grow: 1;
   text-align: center;
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -31,8 +31,7 @@ body {
   color: white;
   background: none;
   border: none;
-  font-size: 24px;
-  z-index: 1100;
+  font-size: 30px;
 }
 
 /*sp用 nav*/
@@ -45,7 +44,6 @@ body {
   background-color: #52747A;
   padding-top: 60px;
   transition: right 0.3s ease;
-  z-index: 1000;
 }
 
 .nav-sp ul {
