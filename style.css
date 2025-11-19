@@ -136,6 +136,13 @@ body {
   width: auto;
 }
 
+.pc-logo-L {
+  align-items: right;
+}
+.pc-logo-R {
+  align-items: left;
+}
+
 .pc-logo-image {
   position: absolute;
   left: 50%;
