@@ -14,17 +14,24 @@ body {
   padding: 8px 0;
 }
 
-.sp-logo-L,
-.sp-logo-R {
+.sp-L,
+.sp-R {
+  display: flex;
   flex-grow: 1;
+  gap: 15px;
   text-align: center;
   color: white;
   font-size: 30px;
   font-weight: 700;
 }
 
-.sp-space-left,
-.sp-space-right {
+.sp-logo-image img {
+  height: 35px;
+  width: auto;
+}
+  
+.sp-space-L,
+.sp-space-R {
   width: 40px;
 }
 
@@ -91,6 +98,19 @@ body {
   color: white;
   font-size: 36px;
   font-weight: 700;
+}
+
+.pc-logo {
+  display: flex;
+  flex-grow: 1;
+  gap: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.sp-logo-image img {
+  height: 35px;
+  width: auto;
 }
 
 /* pc用 nav */
