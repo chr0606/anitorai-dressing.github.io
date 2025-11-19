@@ -38,8 +38,8 @@ body {
 .nav-sp {
   position: fixed;
   top: 0;
-  right: -250px;
-  width: 250px;
+  right: -125px;
+  width: 125px;
   height: 100%;
   background-color: #52747A;
   padding-top: 60px;
