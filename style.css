@@ -23,18 +23,16 @@ body {
   flex: 1;
   gap: 15px;
   justify-content: center;
-  align-items: center;
   color: white;
   font-size: 24px;
   font-weight: 700;
-  text-align: center;
 }
 
 .sp-logo-L {
-  align-items: right;
+  text-align: right;
 }
 .sp-items-R {
-  align-items: left;
+  text-align: left;
 }
 
 .sp-logo-image img {
@@ -114,7 +112,7 @@ body {
   color: white;
   font-size: 36px;
   font-weight: 700;
-  gap: 5px;
+  gap: 10px;
 }
 
 .pc-logo {
@@ -123,14 +121,12 @@ body {
   width: 100%;
   flex-grow: 1;
   gap: 15px;
-  text-align: center;
   justify-content: space-between;
 }
 
 .pc-logo-L,
 .pc-logo-R {
   flex: 1;
-  text-align: center;
 }
 
 .pc-logo-image img {
@@ -147,12 +143,6 @@ body {
 }
 .pc-logo-R {
   align-items: left;
-}
-
-.pc-logo-image {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /* pc用 nav */
