@@ -67,6 +67,10 @@ body {
   right: 0;
 }
 
+.no-scroll {
+  overflow: hidden;
+  }
+
 /* pc header */
 .header-pc {
   display: none;
