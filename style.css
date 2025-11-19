@@ -9,7 +9,7 @@ body {
 .header-sp {
   display: flex;
   position: relative;
-  width: 100;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: #76BFCC;
@@ -19,12 +19,14 @@ body {
 .sp-L,
 .sp-R {
   display: flex;
-  flex-grow: 1;
+  flex: 1;
   gap: 15px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
 }
 
 .sp-logo-image img {
@@ -38,14 +40,6 @@ body {
 .sp-space-L,
 .sp-space-R {
   width: 40px;
-}
-
-.sp-L,
-.sp-R {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .hamburger {
