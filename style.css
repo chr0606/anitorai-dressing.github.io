@@ -39,8 +39,8 @@ body {
 .sp-logo-image img {
   position: absolute;
   left: 50%;
-  align-items: center;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
   height: 35px;
   width: auto;
 }
@@ -132,6 +132,10 @@ body {
 }
 
 .pc-logo-image img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   height: 35px;
   width: auto;
 }
