@@ -9,31 +9,23 @@ body {
 .header-sp {
   display: flex;
   position: relative;
-  width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: #76BFCC;
   padding: 8px 0;
-  gap: 10px;
 }
 
-.sp-L,
-.sp-R {
+.sp-logo-group {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 50%);
   display: flex;
-  flex: 1;
-  gap: 15px;
-  justify-content: center;
-  color: white;
-  font-size: 24px;
-  font-weight: 700;
+  gap: 10px;
+  align-items: center;
+  white-space: nowrap;
 }
 
-.sp-logo-L {
-  text-align: right;
-}
-.sp-items-R {
-  text-align: left;
-}
 
 .sp-logo-image img {
   position: absolute;
@@ -42,11 +34,20 @@ body {
   transform: translate(-50%, -50%);
   height: 35px;
   width: auto;
+  display: block;
 }
   
 .sp-space-L,
 .sp-space-R {
   width: 40px;
+}
+
+.sp-logo-L,
+.sp-logo-R {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
 }
 
 .hamburger {
@@ -105,28 +106,23 @@ body {
 /* pc header */
 .header-pc {
   display: none;
+  display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   background-color: #76BFCC;
   padding: 16px 0;
-  color: white;
-  font-size: 36px;
-  font-weight: 700;
-  gap: 10px;
 }
 
-.pc-logo {
+.pc-logo-group {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  position: relative;
-  width: 100%;
-  flex-grow: 1;
   gap: 15px;
-  justify-content: space-between;
-}
-
-.pc-logo-L,
-.pc-logo-R {
-  flex: 1;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .pc-logo-image img {
@@ -136,13 +132,15 @@ body {
   transform: translate(-50%, -50%);
   height: 35px;
   width: auto;
+  display: block;
 }
 
-.pc-logo-L {
-  align-items: right;
-}
+.pc-logo-L,
 .pc-logo-R {
-  align-items: left;
+  color: white;
+  font-weight: 700;
+  font-size: 36px;
+  lone-height: 1;
 }
 
 /* pc用 nav */
@@ -151,14 +149,14 @@ body {
   padding: 0;
   margin: 12px 0 0;
   display: flex;
-  gap: 24px;
-  font-size: 24px;
+  gap: 20px;
 }
 
 .nav-pc a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 @media (min-width: 768px) {
