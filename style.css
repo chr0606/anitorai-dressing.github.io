@@ -1,7 +1,8 @@
 /* モバイルファースト */
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: "Noto Serif JP", "Noto Serif";
+  font-weight: 500;
 }
 
 /* sp header */
@@ -18,6 +19,7 @@ body {
   text-align: center;
   color: white;
   font-size: 36px
+  font-weight: 700;
 }
 
 .sp-space-left,
@@ -74,6 +76,7 @@ body {
   padding: 16px 0;
   color: white;
   font-size: 36px;
+  font-weight: 700;
 }
 
 /* pc用 nav */
