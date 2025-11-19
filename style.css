@@ -102,15 +102,29 @@ body {
 
 .pc-logo {
   display: flex;
+  position: relative;
+  width: 100%;
   flex-grow: 1;
   gap: 15px;
   text-align: center;
   justify-content: space-between;
 }
 
+.pc-logo-L,
+.pc-logo-R {
+  flex: 1;
+  text-align: center;
+}
+
 .pc-logo-image img {
   height: 35px;
   width: auto;
+}
+
+.pc-logo-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* pc用 nav */
