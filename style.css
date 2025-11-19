@@ -8,6 +8,8 @@ body {
 /* sp header */
 .header-sp {
   display: flex;
+  position: relative;
+  width: 100;
   align-items: center;
   justify-content: space-between;
   background-color: #76BFCC;
@@ -26,6 +28,9 @@ body {
 }
 
 .sp-logo-image img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   height: 35px;
   width: auto;
 }
@@ -33,6 +38,14 @@ body {
 .sp-space-L,
 .sp-space-R {
   width: 40px;
+}
+
+.sp-L,
+.sp-R {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-item: center;
 }
 
 .hamburger {
