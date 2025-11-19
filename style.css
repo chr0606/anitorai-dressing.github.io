@@ -112,3 +112,9 @@ body {
     display: flex;
   }
 }
+
+/*main*/
+.main1 {
+  padding: 40px;
+  margin: 0;
+}
