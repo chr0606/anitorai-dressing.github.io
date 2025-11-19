@@ -32,6 +32,15 @@ body {
   background: none;
   border: none;
   font-size: 30px;
+  font-weight: 500;
+}
+
+.cross{
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 /*sp用 nav*/
