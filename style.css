@@ -32,6 +32,7 @@ body {
   height: 35px;
   width: auto;
   display: block;
+  transform: none;
 }
   
 .sp-space-L,
@@ -126,6 +127,7 @@ body {
   height: 35px;
   width: auto;
   display: block;
+  transform: none;
 }
 
 .pc-logo-L,
