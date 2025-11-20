@@ -103,6 +103,7 @@ body {
 /* pc header */
 .header-pc {
   display: none;
+  display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #76BFCC;
